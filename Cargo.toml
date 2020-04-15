@@ -16,5 +16,5 @@ use_tokio = ["futures", "tokio", "mio-evented"]
 [dependencies]
 futures = { version = "0.1", optional = true }
 nix = "0.14.0"
-mio = { version = "0.6", optional = true }
+mio = { version = "0.7", optional = true }
 tokio = { version = "0.1", optional = true }
